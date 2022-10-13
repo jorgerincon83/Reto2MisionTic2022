@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reto 2 Ciclo 3 MINTIC2022</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+    <script src="https:ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Funciones.js"></script>
+    <style>
+        body {
+          background-image: url('https://www.xtrafondos.com/descargar.php?id=5114&resolucion=2560x1440');
+          background-repeat: no-repeat;
+         
+        }
+        
+        </style>
+        <style>
+            body {
+              color: rgb(247, 247, 247);
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            h1 {
+              color: rgb(105, 204, 74);
+              text-shadow: 3px 3px 3px #000000;
+            }
+            h2 {
+              color: rgb(7, 7, 7);
+              text-shadow: 3px 3px 3px #f1f1f1;
+            }
+            p {
+              color: rgb(255, 255, 255);
+              text-shadow: 3px 3px 3px #0a0808;
+            }
+            
+        
+    body {
+      font-family:  'Times New Roman', Times, serif;
+      font-size: 25px;
+     
+    }
+    
+    </style> 
+  
+    
+       
+   
+</head>
+<body>
+    
+     
+    <h1 style="text-align:center;">QUADBIKEMOTORS</h1><br>
+    <h2>Registro de Clientes</h2>
+    <div id="resultado"></div><br>
+    <button onclick="traerInformacion()",style="font-size:24px", style="background-color:rgb(223, 138, 11)">
+        Consultar Clientes <i class="fa fa-cloud-download"></i></button>
+
+        <div><br>
+               <input type="number" id="id" placeholder="id">
+               <input type="text" id="name" placeholder="name">
+               <input type="text" id="email" placeholder="email">
+               <input type="number" id="age" placeholder="age">
+              
+           </div><br> 
+           <button onclick="guardarInformacion()",style="font-size:12px", style="background-color:MediumSeaGreen"> Guardar <i class="fa fa-save"> </i> </button></button>
+           <button onclick="editarInformacion()",style="font-size:24px", style="background-color:DodgerBlue" > Actualizar <i class="fa fa-pencil-square-o"></i></button> </button>
+
+           <h2>Registro de Mensajes</h2>
+           <div id="resultado1"></div><br>
+           <button onclick="InformacionMessage()",style="font-size:24px", style="background-color:rgb(223, 138, 11)">
+               Consultar Mensajes <i class="fa fa-cloud-download"></i></button>
+       
+               <div><br>
+                      <input type="number" id="idmessage" placeholder="id">
+                      <input type="text" id="message" placeholder="message">
+                      
+                     
+                  </div><br>
+                  <button onclick="guardarInformacion1()",style="font-size:12px", style="background-color:MediumSeaGreen"> Guardar <i class="fa fa-save"> </i> </button></button>
+                  <button onclick="editarInformacion1()",style="font-size:24px", style="background-color:DodgerBlue" >Actualizar <i class="fa fa-pencil-square-o"></i></button> </button> 
+                  
+                  <h2>Creacion de Cuatrimotos</h2>
+                  <div id="resultado2"></div><br>
+                  <button onclick="InformacionQuadbike()",style="font-size:24px", style="background-color:rgb(223, 138, 11)">
+                    Consultar Cuatrimotos <i class="fa fa-cloud-download"></i></button>
+
+                    <div><br>
+                      <input type="number" id="id" placeholder="id">
+                      <input type="text" id="brand" placeholder="brand">
+                      <input type="number" id="model" placeholder="model">
+                      <input type="number" id="category_id" placeholder="category_id">
+                      <input type="text" id="name" placeholder="name">
+                     
+                  </div><br>
+                  <button onclick="guardarInformacion2()",style="font-size:12px", style="background-color:MediumSeaGreen"> Guardar <i class="fa fa-save"> </i> </button></button>
+                  <button onclick="editarInformacion2()" ,style="font-size:24px", style="background-color:DodgerBlue" >Actualizar <i class="fa fa-pencil-square-o"></i></button> </button>
+                                                                
+
+</body><br>
+    
+
+<p>Reto 2 Mintic 2022 Universida Sergio Arboleda</p>
+
+
+
+</html>
